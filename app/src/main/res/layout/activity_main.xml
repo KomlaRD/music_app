@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,30 +9,32 @@
     <TextView
         android:id="@+id/local"
         style="@style/CategoryStyle"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="@color/local"
-        android:text="@string/local_text"/>
-
-    <TextView
-        android:id="@+id/country"
-        style="@style/CategoryStyle"
-        android:background="@color/country"
-        android:text="@string/country_text" />
-
-    <TextView
-        android:id="@+id/classic"
-        style="@style/CategoryStyle"
-        android:background="@color/classic"
-        android:text="@string/classic_text" />
+        android:text="@string/local_text" />
 
     <TextView
         android:id="@+id/hymnals"
         style="@style/CategoryStyle"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="@color/hymnals"
         android:text="@string/hymnals_text" />
+
     <TextView
         android:id="@+id/foreign"
         style="@style/CategoryStyle"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:background="@color/foreign"
         android:text="@string/foreign_text" />
 
+    <TextView
+        android:id="@+id/country"
+        style="@style/CategoryStyle"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/country"
+        android:text="@string/country_text" />
 </LinearLayout>

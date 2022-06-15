@@ -1,18 +1,18 @@
 <resources>
     <!-- Title of the app -->
     <string name="app_name">Gospel Music App</string>
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
+
+    <!-- Category name for local gospel tracks -->
     <string name="local_text">Local Gospel Tracks</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <!-- Category name for country gospel tracks -->
     <string name="country_text">Country Gospel Tracks</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="classic_text">Classic Gospel Tracks</string>
-
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <!-- Category name for hymnals -->
     <string name="hymnals_text">Hymnals</string>
 
-    <!-- Category name for vocabulary words for phrases [CHAR LIMIT=20]-->
+    <!-- Category name for foreign gospel tracks-->
     <string name="foreign_text">Foreign Gospel Tracks</string>
+    <string name="menu">menu</string>
+
 </resources>

@@ -4,11 +4,27 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/music_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".ForeignGospel"
+            android:label="Foreign Gospel"
+            android:exported="false" />
+        <activity
+            android:name=".Hymnals"
+            android:label="Hymnals"
+            android:exported="false" />
+        <activity
+            android:name=".CountryGospel"
+            android:label="Country Gospel"
+            android:exported="false" />
+        <activity
+            android:name=".LocalGospel"
+            android:label="Local Gospel"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
